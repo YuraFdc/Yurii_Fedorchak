@@ -16,7 +16,7 @@ public class PetConfig {
     }
 
     @Bean
-    @Qualifier
+    @Qualifier("cheetah2")
     public Cheetah cheetah2() {
         return new Cheetah();
     }
